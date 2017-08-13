@@ -10,7 +10,7 @@
 <body>
 	<nav>
 		<ul>
-			<li><img src="/assets/img/logo.jpg" /></li>
+			<li><a href="#"><img src="/assets/img/logo.jpg" /></a></li>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#contact">Contact</a></li>
@@ -26,7 +26,7 @@
 	</header>
 	<section id="about">
 		<h2>Qui suis-je ?</h2>
-		<p>Je suis née à Besançon dans l’est de la France. Créatrice autodidacte, j’étudie actuellement les <strong>arts graphiques</strong> multimédia à Lyon. Je possède également un <abbr title="Certificat de Qualification Professionnelle Animateur Soigneur Assistant">CQP ASA</abbr> dans le milieu de l’équitation. Souhaitant devenir <strong>Game Artist</strong>, j’oriente mes études pour venir à Paris dans les mois à venir...</p>
+		<p>Salut, moi c'est Élisa Péron ! Je suis née à Besançon dans l’est de la France. Créatrice autodidacte, j’étudie actuellement les <strong>arts graphiques</strong> multimédia à Lyon. Je possède également un <abbr title="Certificat de Qualification Professionnelle Animateur Soigneur Assistant">CQP ASA</abbr> dans le milieu de l’équitation. Souhaitant devenir <strong>Game Artist</strong>, j’oriente mes études pour venir à Paris dans les mois à venir...</p>
 		<div class="figure">
 			<img src="assets/img/main_photo.png" alt="me!" width="300px" />
 			<span>Histoire de remplir la page tu peux mettre ici ta photo (les recruteur/euses aiment savoir à qui iels ont affaire), ou un artwork particulier, ou une photo de ton cheval, ou d'un lampadaire, OU D'UN ABRIBUS PUTAIN.</span>
@@ -35,9 +35,91 @@
 	</section>
 	<section id="gallery">
 		<h2>Galerie</h2>
+		<ul class="grid">
+			<li>
+				<img src="/data/gallery/preview/1.jpg" alt="Une jolie nimage" />
+				<div class="grid_overlay">
+					<div class="grid_overlay_content">
+						<h3>Bewbs</h4>
+						<h4>Photographie</h4>
+						<div class="grid_desc">Hhhhhh c'est beau ptn.</div>
+						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<img src="/data/gallery/preview/2.jpg" alt="Une autre jolie nimage" />
+				<div class="grid_overlay">
+					<div class="grid_overlay_content">
+						<h3>Piscine</h4>
+						<h4>Photographie</h4>
+						<div class="grid_desc">Fait dans une piscine sans doute je sais pas mais c'est joli aussi.</div>
+						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<img src="/data/gallery/preview/3.jpg" alt="Deux personnes sur une plage" />
+				<div class="grid_overlay">
+					<div class="grid_overlay_content">
+						<h3>Plage</h4>
+						<h4>Photographie</h4>
+						<div class="grid_desc">C'est marrant la plage me dit quelque-chose (mais toutes les plages se ressemblent alors c'est con).</div>
+						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<img src="/data/gallery/preview/4.jpg" alt="ROUSSE" />
+				<div class="grid_overlay">
+					<div class="grid_overlay_content">
+						<h3>Appareil photo</h4>
+						<h4>Photographie</h4>
+						<div class="grid_desc">Peut-être l'artiste, peut-être pas ; en tout cas elle a des reflets roux (hhh).</div>
+						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<img src="/data/gallery/preview/5.jpg" alt="Chill" />
+				<div class="grid_overlay">
+					<div class="grid_overlay_content">
+						<h3>Cigarette</h4>
+						<h4>Photographie</h4>
+						<div class="grid_desc">J'aime beaucoup la lumière de celle-ci.</div>
+						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<img src="/data/gallery/preview/6.jpg" alt="Cuteness overload" />
+				<div class="grid_overlay">
+					<div class="grid_overlay_content">
+						<h3>Cuteness overload</h4>
+						<h4>Photographie</h4>
+						<div class="grid_desc">Elle est tellement cute. ;w; (Elle a fait d'autres shootings comme ça ?)</div>
+						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<img src="/data/gallery/preview/7.jpg" alt="Aesthetic" />
+				<div class="grid_overlay">
+					<div class="grid_overlay_content">
+						<h3>Psychedelic</h4>
+						<h4>Photographie</h4>
+						<div class="grid_desc">Grosse aesthetic LSD j'aime bien.</div>
+						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
+					</div>
+				</div>
+			</li>
+		</ul>
 	</section>
 	<section id="contact">
 		<h2>Contactez moi</h2>
+		<form>
+		</form>
+		<p>Retrouvez moi aussi sur <a href="https://twitter.com/" title="@Zaziss">Twitter</a>, <a href="https://www.facebook.com/ZazissElisaPeron/" title="Zaziss">Facebook</a>, ou directement par mail via elisa.peron [arobase] zaziss [point] com !</p>
 	</section>
 	<footer>
 		Crafté par : <a href="https://portfolio.intensifi.es/" title="Guillaume's portfolio">Guillaume JORANDON</a>.
