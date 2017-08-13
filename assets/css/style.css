@@ -1,0 +1,224 @@
+/*
+ * GLOBAL
+ */
+
+html, body
+{
+	height: 100%;
+	font-family: 'Raleway', sans-serif;
+	background: #202020;
+	color: #00FF76;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+blockquote
+{
+	font-family: 'Berkshire Swash', cursive;
+	line-height: 1.7em;
+}
+
+.blockquote_author
+{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Berkshire Swash', cursive;
+}
+
+h1
+{
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+h2
+{
+	font-size: 2em;
+	margin-bottom: 0.8em;
+}
+
+h3
+{
+	font-size: 1.8em;
+	margin-bottom: 0.6em;
+}
+
+h4
+{
+	font-size: 1.6em;
+	margin-bottom: 0.4em;
+}
+
+h5
+{
+	font-size: 1.4em;
+	margin-bottom: 0.2em;
+}
+
+h6
+{
+	font-size: 1.2em;
+	margin-bottom: 0.1em;
+}
+
+/*
+ * HEADER
+ */
+
+nav
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 0.7em;
+	background: #00FF76;
+	z-index: 2;
+	text-align: left;
+}
+
+nav li
+{
+	display: inline-block;
+	margin-right: 4px;
+	margin-left: 4px;
+	vertical-align: middle;
+}
+
+nav a
+{
+	text-decoration: none;
+	color: rgba(0, 0, 0, .5);
+	font-size: 1.1em;
+}
+
+nav img
+{
+	height: 3em;
+	border-radius: 100%;
+	margin-right: 10px;
+}
+
+header
+{
+	height: 100vh;
+	position: relative;
+	background: url('/assets/img/background.jpg');
+	background-size: cover;
+	z-index: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 1px 1px 0 rgba(75,75,75,0.6) , -1px -1px 1px rgba(255,255,255,0.47);
+}
+
+header blockquote
+{
+	font-size: 1.8em;
+}
+
+header .blockquote_author
+{
+	font-size: 0.6em;
+}
+
+header h1
+{
+	color: #141414;
+}
+
+#header_content
+{
+	max-width: 30%;
+}
+
+/*
+ * SECTION
+ */
+
+section
+{
+	text-align: left;
+	min-height: 100vh;
+	width: 33.333%;
+	margin: auto;
+	padding-top: 6.3em;
+}
+
+section p
+{
+	margin-bottom: 0.7em;
+}
+
+/*
+ * FIGURE
+ */
+
+.figure
+{
+	text-align: center;
+	margin-bottom: 0.7em;
+	line-height: 1.1em !important;
+}
+
+.figure img
+{
+	display: block;
+	margin: auto;
+	background: #F0F0F0;
+}
+
+.figure span
+{
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+/*
+ * FOOTER
+ */
+
+/*
+ * FONTS
+ */
+
+/* latin-ext */
+@font-face
+{
+	font-family: 'Berkshire Swash';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Berkshire Swash'), local('BerkshireSwash-Regular'), url('/assets/fonts/BerkshireSwash/latin-ext.woff2') format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face
+{
+	font-family: 'Berkshire Swash';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Berkshire Swash'), local('BerkshireSwash-Regular'), url('/assets/fonts/BerkshireSwash/latin.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+/* latin-ext */
+@font-face
+{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Raleway'), local('Raleway-Regular'), url('/assets/fonts/Raleway/latin-ext.woff2') format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face
+{
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Raleway'), local('Raleway-Regular'), url('/assets/fonts/Raleway/latin.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
