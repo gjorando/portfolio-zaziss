@@ -35,8 +35,10 @@
 	</section>
 	<section id="gallery">
 		<h2>Galerie</h2>
+		<p>Ci-dessous mon travail blablabla. Merci de ne pas utiliser ces artworks sans m'en demander la permission ! Vous pouvez utiliser pour cela <a href="#contact">le formulaire de contact</a>.</p>
 		<ul class="grid">
 			<li>
+				<a href="/data/gallery/preview/1.jpg">
 				<img src="/data/gallery/preview/1.jpg" alt="Une jolie nimage" />
 				<div class="grid_overlay">
 					<div class="grid_overlay_content">
@@ -46,8 +48,10 @@
 						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
 					</div>
 				</div>
+				</a>
 			</li>
 			<li>
+				<a href="/data/gallery/preview/2.jpg">
 				<img src="/data/gallery/preview/2.jpg" alt="Une autre jolie nimage" />
 				<div class="grid_overlay">
 					<div class="grid_overlay_content">
@@ -57,8 +61,10 @@
 						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
 					</div>
 				</div>
+				</a>
 			</li>
 			<li>
+				<a href="/data/gallery/preview/3.jpg">
 				<img src="/data/gallery/preview/3.jpg" alt="Deux personnes sur une plage" />
 				<div class="grid_overlay">
 					<div class="grid_overlay_content">
@@ -68,8 +74,10 @@
 						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
 					</div>
 				</div>
+				</a>
 			</li>
 			<li>
+				<a href="/data/gallery/preview/4.jpg">
 				<img src="/data/gallery/preview/4.jpg" alt="ROUSSE" />
 				<div class="grid_overlay">
 					<div class="grid_overlay_content">
@@ -79,8 +87,10 @@
 						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
 					</div>
 				</div>
+				</a>
 			</li>
 			<li>
+				<a href="/data/gallery/preview/5.jpg">
 				<img src="/data/gallery/preview/5.jpg" alt="Chill" />
 				<div class="grid_overlay">
 					<div class="grid_overlay_content">
@@ -90,8 +100,10 @@
 						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
 					</div>
 				</div>
+				</a>
 			</li>
 			<li>
+				<a href="/data/gallery/preview/6.jpg">
 				<img src="/data/gallery/preview/6.jpg" alt="Cuteness overload" />
 				<div class="grid_overlay">
 					<div class="grid_overlay_content">
@@ -101,8 +113,10 @@
 						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
 					</div>
 				</div>
+				</a>
 			</li>
 			<li>
+				<a href="/data/gallery/preview/7.jpg">
 				<img src="/data/gallery/preview/7.jpg" alt="Aesthetic" />
 				<div class="grid_overlay">
 					<div class="grid_overlay_content">
@@ -112,6 +126,7 @@
 						<div class="grid_disclaimer">(c)Jspas qui mais il faut que je te demande le nom de l'artiste pck c'est super stylé</div>
 					</div>
 				</div>
+				</a>
 			</li>
 		</ul>
 	</section>
@@ -122,7 +137,8 @@
 		<p>Retrouvez moi aussi sur <a href="https://twitter.com/" title="@Zaziss">Twitter</a>, <a href="https://www.facebook.com/ZazissElisaPeron/" title="Zaziss">Facebook</a>, ou directement par mail via elisa.peron [arobase] zaziss [point] com !</p>
 	</section>
 	<footer>
-		Crafté par : <a href="https://portfolio.intensifi.es/" title="Guillaume's portfolio">Guillaume JORANDON</a>.
+		Artworks, charte graphique : Élisa Péron<br />
+		Code : <a href="https://portfolio.intensifi.es/" title="Guillaume's portfolio">Guillaume JORANDON</a>
 	</footer>
 </body>
 </html>

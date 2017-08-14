@@ -64,6 +64,16 @@ h6
 	margin-bottom: 0.1em;
 }
 
+a
+{
+	color: #00FF76;
+}
+
+a:hover
+{
+	color: #00CF46;
+}
+
 /*
  * HEADER
  */
@@ -74,25 +84,51 @@ nav
 	top: 0;
 	left: 0;
 	right: 0;
-	padding: 0.7em;
 	background: #00FF76;
 	z-index: 2;
 	text-align: left;
 }
 
+nav ul
+{
+	height: 100%;
+	display: flex;
+	align-items: stretch;
+}
+
 nav li
 {
-	display: inline-block;
-	margin-right: 4px;
-	margin-left: 4px;
-	vertical-align: middle;
+	display: flex;
+	background: none;
+	transition: .2s ease;
 }
 
 nav a
 {
+	align-self: center;
+	padding-left: 0.35em;
+	padding-right: 0.35em;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+	display: inline-block;
 	text-decoration: none;
 	color: rgba(0, 0, 0, .5);
 	font-size: 1.1em;
+}
+
+nav li:nth-child(1) a
+{
+	padding-left: 0.7em;
+}
+
+nav li:hover
+{
+	background: rgba(0, 0, 0, .2);
+}
+
+nav li:hover a
+{
+	color: rgba(0, 0, 0, .5);
 }
 
 nav img
@@ -263,6 +299,13 @@ section .figure
 /*
  * FOOTER
  */
+
+footer
+{
+	background: #404040;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
 
 /*
  * FONTS
