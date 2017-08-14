@@ -132,7 +132,26 @@
 	</section>
 	<section id="contact">
 		<h2>Contactez moi</h2>
-		<form>
+		<form action="send.php" method="post">
+			<fieldset>
+				<legend>Renseignements</legend>
+				<label for="form_name">Nom</label><input type="text" name="name" id="form_name" required placeholder="Doe" />
+				<label for="form_first_name">Prénom</label><input type="text" name="first_name" id="form_first_name" required placeholder="John" />
+				<label for="form_email">Adresse e-mail</label><input type="email" name="email" id="form_email" required placeholder="john.doe@mail.com" />
+				<label for="form_pseudo">Pseudonyme</label><input type="text" name="pseudo" id="form_pseudo" required placeholder="joXx92" />
+				<label for="form_check_pseudo" class="nb_label">Voulez vous être appelé par votre pseudo ?</label><input type="checkbox" name="check_pseudo" id="form_check_pseudo" />
+			</fieldset>
+			<fieldset>
+				<legend>Message</legend>
+				<select name="message_type">
+					<option value="question">Question</option>
+					<option value="com">Commission</option>
+					<option value="collab">Collaboration</option>
+					<option value="misc">Autre</option>
+				</select>
+				<textarea name="message_body" placeholder="Bonjour, "></textarea>
+			</fieldset>
+			<input type="submit" value="Envoyer" />
 		</form>
 		<p>Retrouvez moi aussi sur <a href="https://twitter.com/" title="@Zaziss">Twitter</a>, <a href="https://www.facebook.com/ZazissElisaPeron/" title="Zaziss">Facebook</a>, ou directement par mail via elisa.peron [arobase] zaziss [point] com !</p>
 	</section>

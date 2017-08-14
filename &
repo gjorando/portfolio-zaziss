@@ -397,7 +397,7 @@ input[type="submit"]
 	box-shadow: none;
 	border-radius: 4px;
 	border: 2px solid #00CF46;
-	color: #00CF46;
+	color: #00FF76;
 	font-size: 1.2em;
 	margin-bottom: 2em;
 	transition: .4s ease;
