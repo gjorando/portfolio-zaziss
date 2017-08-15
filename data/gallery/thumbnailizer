@@ -2,7 +2,7 @@
 
 # USE THIS SHELL SCRIPT TO QUICKLY CONVERT THE FULL IMAGES IN full/ TO THUMBNAILS IN preview/.
 
-FILES="$@"
+FILES="full/*"
 for i in $FILES
 do
 echo "Processing image $i ..."

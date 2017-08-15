@@ -451,6 +451,10 @@ footer
  * RESPONSIVE
  */
 
+/*
+ * TODO pour les téléphones afficher d'office le descriptif
+ */
+
 @media all and (orientation: portrait)
 {
 	nav
@@ -526,6 +530,14 @@ footer
 	{
 		width: 100%;
 	}
+}
+
+@media all and ((pointer: none) or (pointer: coarse))
+{
+	/*
+	 * DANS LE FUTUR, DÉPLACER L'AFFICHAGE SYSTÉMATIQUE DES LÉGENDES DE GALERIE ICI.
+	 * POUR LE MOMENT LA MEDIA QUERY "pointer" EST TRÈS PEU SUPPORTÉE. (ouin)
+	 */
 }
 
 /*
