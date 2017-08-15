@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# USE THIS SHELL SCRIPT TO QUICKLY CONVERT THE FULL IMAGES IN full/ TO THUMBNAILS IN preview/.
+
+FILES="$@"
+for i in $FILES
+do
+echo "Processing image $i ..."
+/usr/bin/convert -thumbnail x512 $i preview/$(basename $i)
+done
+
