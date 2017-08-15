@@ -10,13 +10,13 @@
 <body>
 	<nav>
 		<ul>
-			<li><a href="#"><img src="/assets/img/logo.jpg" /></a></li>
+			<li><a href="#head"><img src="/assets/img/logo.jpg" /></a></li>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
-	<header>
+	<header id="head">
 		<div id="header_content">
 		<h1>Zaziss.com</h1>
 		<blockquote>
