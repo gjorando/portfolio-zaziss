@@ -1,0 +1,9 @@
+<?php
+
+$elem = new GalleryElement(
+	'image.extension',
+	'Titre',
+	'Sous-titre',
+	'Description.',
+	'Disclaimer'
+);

@@ -4,7 +4,9 @@ require_once('model/gallery.php');
 
 $gallery = Array();
 
-foreach (glob("data/gallery.d/*.php") as $filename)
+$files = glob("data/gallery.d/*.php");
+sort($files, SORT_NATURAL);
+foreach ($files as $filename)
 {
 	require_once($filename);
 	$gallery[] = $elem;
