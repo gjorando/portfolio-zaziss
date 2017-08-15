@@ -135,11 +135,8 @@
 		<form action="send.php" method="post">
 			<fieldset>
 				<legend>Renseignements</legend>
-				<label for="form_name">Nom</label><input type="text" name="name" id="form_name" required placeholder="Doe" />
-				<label for="form_first_name">Prénom</label><input type="text" name="first_name" id="form_first_name" required placeholder="John" />
-				<label for="form_email">Adresse e-mail</label><input type="email" name="email" id="form_email" required placeholder="john.doe@mail.com" />
-				<label for="form_pseudo">Pseudonyme</label><input type="text" name="pseudo" id="form_pseudo" required placeholder="joXx92" />
-				<label for="form_check_pseudo" class="nb_label">Voulez vous être appelé par votre pseudo ?</label><input type="checkbox" name="check_pseudo" id="form_check_pseudo" />
+				<label for="form_pseudo">Nom</label><input type="text" name="pseudo" id="form_pseudo" required placeholder="Pseudo, prénom, etc." />
+				<label for="form_email">Adresse e-mail</label><input type="email" name="email" id="form_email" required placeholder="votre@mail.com" />
 			</fieldset>
 			<fieldset>
 				<legend>Message</legend>
