@@ -132,6 +132,29 @@
 	</section>
 	<section id="contact">
 		<h2>Contactez moi</h2>
+		<?php 
+		if(isset($_GET['err'])) if(in_array($_GET['err'], $form_errors))
+		{ ?>
+		<div class="form_info form_<?= ($_GET['err'] == 'success')?'success':'error' ?>">
+		<?php
+		switch($_GET['err'])
+		{
+			case 'success':
+				echo 'Merci pour votre message ! Je vais l\'examiner et y répondre dès que possible.';
+				break;
+			case 'form':
+				echo 'Le formulaire est incomplet et/ou incorrect. Merci de vérifier votre saisie avant de l\'envoyer.';
+				break;
+			case 'send':
+				echo 'Une erreur est survenue pendant l\'envoi du message. Réessayez ou contactez moi directement sur les réseaux sociaux.';
+				break;
+			default:
+				echo "Quelque-chose s'est mal passé. Réessayez ou envoyez moi directement un message sur les réseaux sociaux.";
+		}
+		?>
+		</div>
+		<?php }
+		?>
 		<form action="send.php" method="post">
 			<fieldset>
 				<legend>Renseignements</legend>

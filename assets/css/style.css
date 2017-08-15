@@ -410,6 +410,31 @@ input[type="submit"]:hover
 	color: #FFFFFF;
 }
 
+.form_info
+{
+	border-radius: 4px;
+	border: 2px solid #8C8C8C;
+	color: #8C8C8C;
+	background: #282828;
+	width: 33.333%;
+	margin: auto;
+	padding: 0.2em;
+}
+
+.form_error
+{
+	color: #FF0A0A;
+	border-color: #FF0A0A;
+	background-color: rgba(255, 0, 0, 0.1);
+}
+
+.form_success
+{
+	color: #0AFF0A;
+	border-color: #0AFF0A;
+	background-color: rgba(0, 255, 0, 0.1);
+}
+
 /*
  * FOOTER
  */
@@ -426,6 +451,8 @@ footer
  */
 
 /* < 1600px: form en bandeau */
+/* Menu en full-height pour les téléphones */
+/* galerie */
 
 /*
  * FONTS
