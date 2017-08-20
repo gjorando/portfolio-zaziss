@@ -24,8 +24,8 @@ if(!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL))
 	exit(0);
 }
 
-$recipient = "jorandon@gmail.com";
-
+$recipient = "elisa.peron@zaziss.com";
+:
 $pseudo = $_POST['pseudo'];
 $email = $_POST['email'];
 $message_body = $_POST['message_body'];
