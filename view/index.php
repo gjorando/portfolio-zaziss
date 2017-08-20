@@ -5,6 +5,7 @@
 	<meta charset="utf8" />
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.css" />
 	<meta name="viewport" content="width=device-width; maximum-scale=1; minimum-scale=1;" />
 </head>
 <body>
@@ -36,7 +37,7 @@
 	<section id="gallery">
 		<h2>Galerie</h2>
 		<p>Ci-dessous mon travail blablabla. Merci de ne pas utiliser ces artworks sans m'en demander la permission ! Vous pouvez utiliser pour cela <a href="#contact">le formulaire de contact</a>.</p>
-		<ul class="grid">
+		<ul class="grid gallery_grid">
 			<?php
 			foreach($gallery as $element)
 			{
@@ -94,5 +95,11 @@
 		Artworks, charte graphique : Élisa Péron<br />
 		Code : <a href="https://portfolio.intensifi.es/" title="Guillaume's portfolio">Guillaume JORANDON</a>
 	</footer>
+
+	<!-- JAVASCRIPT STUFF -->
+
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="/assets/js/jquery.magnific-popup.config.js"></script>
 </body>
 </html>
