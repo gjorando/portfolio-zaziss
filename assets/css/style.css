@@ -211,6 +211,7 @@ section .figure
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: scroll;
 }
 
 #special_wip_content 
@@ -543,6 +544,11 @@ footer
 	{
 		width: 75%;
 	}
+
+    #special_wip_content 
+    {
+        width: 80%;
+    }
 
 	form
 	{
