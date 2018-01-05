@@ -16,7 +16,28 @@
 			<li><a href="#gallery">Gallery</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
-	</nav>
+    </nav>
+    <?php
+    if($IN_CONSTRUCTION)
+    {
+    ?>
+    <article id="special_wip">
+        <div id="special_wip_content">
+        <h2>Site under construction</h2>
+        <p>This website isn't ready yet. Please come back later!</p>
+        <ul class="social_links">
+            <li><a href="https://twitter.com/Zaziss" title="Zaziss"><img src="assets/img/social_twitter.png" alt="Twitter" /></a></li>
+            <li><a href="https://www.facebook.com/ZazissElisaPeron/" title="ZazissElisaPeron"><img src="assets/img/social_facebook.png" alt="Facebook" /></a></li>
+            <li><a href="https://www.youtube.com/channel/UC2HT8mZdivLcCqHWrRLo-_g" title="Zaziss"><img src="assets/img/social_youtube.png" alt="Youtube" /></a></li>
+            <li><a href="https://www.instagram.com/zaziss/" title="zaziss"><img src="assets/img/social_instagram.png" alt="Instagram" /></a></li>
+            <li><a href="https://www.artstation.com/zaziss" title="zaziss"><img src="assets/img/social_artstation.png" alt="Artstation" /></a></li>
+            <li><a href="https://zaziss.deviantart.com/" title="Zaziss"><img src="assets/img/social_deviantart.png" alt="Deviantart" /></a></li>
+        </ul>
+		<p>You can also reach my by mail: <strong>elisa.peron [at] zaziss [dot] com</strong>.</p>
+        </div>
+    </article>
+    <?php }
+    ?>
 	<header id="head">
 		<div id="header_content">
 		<h1>Zaziss.com</h1>
@@ -37,7 +58,7 @@
 	</section>
 	<section id="gallery">
 		<h2>Gallery</h2>
-		<p>Some of my work. Please ask me explicit permission if you want to use any artwork. Feel free to <a href="#contact">contact me</a>.</p>
+		<p>Some of my works. Please ask me explicit permission if you want to use any artwork. Feel free to <a href="#contact">contact me</a>.</p>
 		<ul class="grid gallery_grid">
             <?php
             foreach($gallery as $element)

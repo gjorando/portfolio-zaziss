@@ -6,4 +6,6 @@ $page_title="Zaziss";
 
 $form_errors = Array('success', 'form', 'send');
 
+$IN_CONSTRUCTION = true;
+
 require_once("view/index.php");
