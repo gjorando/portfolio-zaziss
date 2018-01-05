@@ -12,8 +12,8 @@
 	<nav>
 		<ul>
 			<li><a href="#head"><img src="/data/misc/logo.jpg" /></a></li>
-			<li><a href="#about">À propos</a></li>
-			<li><a href="#gallery">Galerie</a></li>
+			<li><a href="#about">About me</a></li>
+			<li><a href="#gallery">Gallery</a></li>
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
@@ -21,25 +21,26 @@
 		<div id="header_content">
 		<h1>Zaziss.com</h1>
 		<blockquote>
-			Si vous pouviez le dire avec des mots, il n'y aurait aucune raison de le peindre.<br /><span class="blockquote_author">Edward Hopper</span>
+			If you could say it in words, there would be no reason to paint it.<br /><span class="blockquote_author">Edward Hopper</span>
 		</blockquote>
 		</div>	
 	</header>
 	<section id="about">
-		<h2>Qui suis-je ?</h2>
-		<p>Salut, moi c'est Élisa Péron ! Je suis née à Besançon dans l’est de la France. Créatrice autodidacte, j’étudie actuellement les <strong>arts graphiques</strong> multimédia à Lyon. Je possède également un <abbr title="Certificat de Qualification Professionnelle Animateur Soigneur Assistant">CQP ASA</abbr> dans le milieu de l’équitation. Souhaitant devenir <strong>Game Artist</strong>, j’oriente mes études pour venir à Paris dans les mois à venir...</p>
-		<div class="figure">
-			<img src="data/misc/main_photo.png" alt="me!" width="300px" />
-			<span>Histoire de remplir la page tu peux mettre ici ta photo (les recruteur/euses aiment savoir à qui iels ont affaire), ou un artwork particulier, ou une photo de ton cheval, ou d'un lampadaire, OU D'UN ABRIBUS PUTAIN.</span>
+		<h2>Who am I?</h2>
+		<p>My name is Élisa Péron. I am a french <strong>digital artist</strong>. I am currently studying digital media and game art at <strong>ISART digital Paris</strong>, and I was studying graphic design, motion design, interactive design and game design at <strong>e-artsup Lyon</strong>. In 2015, I obtained a horse riding diploma, the <abbr title="Certificate of Professional Qualification as assitant, keeper and animator">CQP ASA</abbr>. I try to make illustration to improve my skills and offer commissions on internet. I plan to become a game artist in the future.</p>
+        <p>I love animals in general and enjoy have pets! I am also a gamer, and a n00b who is trying her best...</p>
+        <div class="figure">
+			<img src="data/misc/main_photo.jpg" alt="Me!" width="300px" />
+			<!-- <span>Legend</span> -->
 		</div>
-		<p>Tout les travaux que vous verrez ici sont associés à l’identité <em>Zaziss</em>. Elle existe depuis 2010 pour signer toutes mes créations. Il s’agit également d’un personnage fictif. Enfin pas trop. Pour qu’elle crée, il suffit de lancer son fonctionnement avec un sweatshirt, une gaufre ou un pancake, et une connexion internet !</p>
+		<p>All artworks I have made are signed by "<em>Zaziss"</em>". This fictionnal identity was created in 2010 to companion my artistic trip. To make her create, you must give her an internet connexion, her hoodie, and a pancake or a waffle and that's it!</p>
 	</section>
 	<section id="gallery">
-		<h2>Galerie</h2>
-		<p>Ci-dessous mon travail blablabla. Merci de ne pas utiliser ces artworks sans m'en demander la permission ! Vous pouvez utiliser pour cela <a href="#contact">le formulaire de contact</a>.</p>
+		<h2>Gallery</h2>
+		<p>Some of my work. Please ask me explicit permission if you want to use any artwork. Feel free to <a href="#contact">contact me</a>.</p>
 		<ul class="grid gallery_grid">
-			<?php
-			foreach($gallery as $element)
+            <?php
+            foreach($gallery as $element)
 			{
 				$element->build_list_element();
 			}
@@ -47,7 +48,7 @@
 		</ul>
 	</section>
 	<section id="contact">
-		<h2>Contactez moi</h2>
+		<h2>Let's get in touch!</h2>
 		<?php 
 		if(isset($_GET['err'])) if(in_array($_GET['err'], $form_errors))
 		{ ?>
@@ -56,16 +57,16 @@
 		switch($_GET['err'])
 		{
 			case 'success':
-				echo 'Merci pour votre message ! Je vais l\'examiner et y répondre dès que possible.';
+				echo 'Thank you for your message! I\'ll read it and answer as soon as possible.';
 				break;
 			case 'form':
-				echo 'Le formulaire est incomplet et/ou incorrect. Merci de vérifier votre saisie avant de l\'envoyer.';
+				echo 'The form is incomplete and/or incorrect. Please check what you typed and try again.';
 				break;
 			case 'send':
-				echo 'Une erreur est survenue pendant l\'envoi du message. Réessayez ou contactez moi directement sur les réseaux sociaux.';
+				echo 'The message wasn\'t send. Try again or try to contact me on social networks!';
 				break;
 			default:
-				echo "Quelque-chose s'est mal passé. Réessayez ou envoyez moi directement un message sur les réseaux sociaux.";
+				echo "Something bad happenned, I'm sorry. Try again or try to contact me on social networks!";
 		}
 		?>
 		</div>
@@ -73,9 +74,9 @@
 		?>
 		<form action="send.php" method="post">
 			<fieldset>
-				<legend>Renseignements</legend>
-				<label for="form_pseudo">Nom</label><input type="text" name="pseudo" id="form_pseudo" required placeholder="Pseudo, prénom, etc." />
-				<label for="form_email">Adresse e-mail</label><input type="email" name="email" id="form_email" required placeholder="votre@mail.com" />
+				<legend>Details</legend>
+				<label for="form_pseudo">Name</label><input type="text" name="pseudo" id="form_pseudo" required placeholder="Pseudonym, name, etc." />
+				<label for="form_email">Email address</label><input type="email" name="email" id="form_email" required placeholder="your-mail@sample.com" />
 			</fieldset>
 			<fieldset>
 				<legend>Message</legend>
@@ -83,16 +84,24 @@
 					<option value="question">Question</option>
 					<option value="com">Commission</option>
 					<option value="collab">Collaboration</option>
-					<option value="misc">Autre</option>
+					<option value="misc">Other</option>
 				</select>
-				<textarea name="message_body" placeholder="Bonjour, "></textarea>
+				<textarea name="message_body" placeholder="Hi, "></textarea>
 			</fieldset>
-			<input type="submit" value="Envoyer" />
-		</form>
-		<p>Retrouvez moi aussi sur <a href="https://twitter.com/" title="@Zaziss">Twitter</a>, <a href="https://www.facebook.com/ZazissElisaPeron/" title="Zaziss">Facebook</a>, ou directement par mail via elisa.peron [arobase] zaziss [point] com !</p>
+			<input type="submit" value="Send" />
+        </form>
+        <ul class="social_links">
+            <li><a href="https://twitter.com/Zaziss" title="Zaziss"><img src="assets/img/social_twitter.png" alt="Twitter" /></a></li>
+            <li><a href="https://www.facebook.com/ZazissElisaPeron/" title="ZazissElisaPeron"><img src="assets/img/social_facebook.png" alt="Facebook" /></a></li>
+            <li><a href="https://www.youtube.com/channel/UC2HT8mZdivLcCqHWrRLo-_g" title="Zaziss"><img src="assets/img/social_youtube.png" alt="Youtube" /></a></li>
+            <li><a href="https://www.instagram.com/zaziss/" title="zaziss"><img src="assets/img/social_instagram.png" alt="Instagram" /></a></li>
+            <li><a href="https://www.artstation.com/zaziss" title="zaziss"><img src="assets/img/social_artstation.png" alt="Artstation" /></a></li>
+            <li><a href="https://zaziss.deviantart.com/" title="Zaziss"><img src="assets/img/social_deviantart.png" alt="Deviantart" /></a></li>
+        </ul>
+		<p>You can also reach my by mail: <strong>elisa.peron [at] zaziss [dot] com</strong>.</p>
 	</section>
 	<footer>
-		Artworks, charte graphique : Élisa Péron<br />
+		Webdesign, content : Élisa Péron<br />
 		Code : <a href="https://portfolio.intensifi.es/" title="Guillaume's portfolio">Guillaume JORANDON</a>
 	</footer>
 

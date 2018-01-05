@@ -438,6 +438,33 @@ input[type="submit"]:hover
 }
 
 /*
+ * SOCIAL MEDIA
+ */
+
+.social_links
+{
+    margin-bottom: 2em;
+}
+
+.social_links li
+{
+    display: inline-block;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.social_links li img
+{
+    transition: .4s filter linear;
+    width: 2.5em;
+}
+
+.social_links li:hover img
+{
+    filter: brightness(60%);
+}
+
+/*
  * FOOTER
  */
 
